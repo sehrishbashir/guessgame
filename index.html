@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>I'm Create A Guess Game For Fun</h1>
+        <h2>Are u Interested For Playing</h2>
+        <h3>So Now!</h3>
+        <h5>Choose The Level And Let's Play For Fun</h5>
+        <div id="levels">
+            
+            <button class="dropdown" onclick="level1()">
+                <span id="easyLevel">Easy <br> Level</span>
+            </button>
+
+            <button class="dropdown" onclick="level2()">
+                <span id="mediumLevel">Medium <br> Level</span>
+            </button>
+
+            <button class="dropdown" onclick="level3()">
+                <span id="hardLevel">Hard <br> Level</span>
+            </button>
+            
+        </div>
+    </main>
+    <section>
+        <div class="purpose1">
+            <h1></h1>
+            <h3></h3>
+            <p></p>
+            <div class="input">
+            <input type="number" placeholder="Enter the number">
+            </div>
+            <div class="button">
+            <button onclick="easyLevel()">Guess Number</button>
+            </div>
+        </div>
+        <div class="purpose2">
+            <h1></h1>
+            <h3></h3>
+            <p></p>
+            <div class="input">
+                <input type="number" placeholder="Enter the number">
+            </div>
+            <div class="button">
+                <button onclick="mediumLevel()">Guess Number</button>
+            </div>
+        </div>
+        <div class="purpose3">
+            <h1></h1>
+            <h3></h3>
+            <p></p>
+            <div class="input">
+                <input type="number" placeholder="Enter the number">
+            </div>
+            <div class="button">
+                <button onclick="hardLevel()">Guess Number</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

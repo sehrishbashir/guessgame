@@ -1,2 +1,2 @@
 # guessgame
-site is published at https://sehrishbashir.github.io/guessgame/.
+site is ready to be published at https://sehrishbashir.github.io/guessgame/.
